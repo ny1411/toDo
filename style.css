@@ -27,7 +27,7 @@ html {
 h1 {
   text-align: center;
   color: #03b1ff;
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 input#goal {
   padding: 10px;
@@ -44,7 +44,7 @@ input#btn {
   cursor: pointer;
   background: #ffba00;
   color: #fff;
-  transition: 0.3s;
+  transition: 0.5s;
 }
 input#btn:hover {
   background: #555;
