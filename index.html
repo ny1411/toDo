@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>ToDo App</title>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+
+    <script type="text/javascript" src="./app.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script
+      src="https://kit.fontawesome.com/53ca44edee.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <h1>toDo</h1>
+
+      <div class="add-container">
+        <input type="text" name="goal" id="goal" placeholder="Add a GOAL..." />
+
+        <input
+          type="button"
+          value="+"
+          id="btn"
+          onclick="addItem(document.getElementById('goal').value)"
+        />
+      </div>
+
+      <div id="goals-container">
+        <!-- Goals come here in <p> tags -->
+      </div>
+
+      <hr />
+
+      <div id="completed-container">
+        <!-- Completed goals come here in <p> tags -->
+      </div>
+    </div>
+  </body>
+</html>
+
+<h1 id="copyright">n_y_1411 &copy</h1>

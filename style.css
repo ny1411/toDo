@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+}
+body,
+html {
+  background: #091921;
+  color: #fff;
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+}
+.wrapper {
+  height: auto;
+  padding: 20px;
+  width: 30%;
+  margin: 0 auto;
+}
+.add-container {
+  display: grid;
+  grid-template-columns: 80% auto;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 20px 0 10px 0;
+}
+h1 {
+  text-align: center;
+  color: #03b1ff;
+  font-size: 2rem;
+}
+input#goal {
+  padding: 10px;
+  font-size: 1.2rem;
+}
+input#goal:focus {
+  outline: none;
+}
+input#btn {
+  font-weight: bold;
+  padding: 10px;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  background: #ffba00;
+  color: #fff;
+  transition: 0.3s;
+}
+input#btn:hover {
+  background: #555;
+  color: #ffba00;
+}
+#goals-container {
+  display: block;
+}
+#goals-container div {
+  border-radius: 10px !important;
+  overflow: hidden;
+  margin: 10px 0;
+  display: grid;
+  grid-template-columns: 85% auto;
+}
+#goals-container div p,
+span {
+  cursor: pointer;
+  display: block;
+  padding: 10px;
+  background: #ffba00;
+  color: #555;
+  transition: 0.3s;
+}
+#goals-container span {
+  text-align: center;
+  background: #fff;
+}
+#goals-container span:hover {
+  background: #555;
+  color: #ffba00;
+}
+
+#goals-container p:hover {
+  background: #555;
+  color: #ffba00;
+  text-decoration: line-through;
+}
+
+#completed-container {
+  display: block;
+}
+
+#completed-container div {
+  border-radius: 10px !important;
+  overflow: hidden;
+  margin: 10px 0;
+  display: grid;
+  grid-template-columns: 85% auto;
+}
+
+#completed-container div p,
+span {
+  cursor: pointer;
+  display: block;
+  padding: 10px;
+  background: #ffba00;
+  color: #555;
+  transition: 0.3s;
+}
+
+#completed-container span {
+  text-align: center;
+  background: #fff;
+}
+
+#completed-container p {
+  text-decoration: line-through;
+}
+
+#completed-container span:hover {
+  background: #555;
+  color: #ffba00;
+}
+
+#completed-container p:hover {
+  background: #555;
+  color: #ffba00;
+  text-decoration: line-through;
+}
+@media only screen and (max-width: 768px) {
+  .wrapper {
+    width: auto;
+  }
+  body {
+    font-size: medium;
+  }
+}
+#copyright {
+  position: absolute;
+  top: 90%;
+  left: 10px;
+  font-weight: 100;
+}
